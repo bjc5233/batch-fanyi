@@ -1,4 +1,4 @@
-@echo off& call lib\load.bat _strlen2 _getLF _getRandomNum _parseASCIIStr _showBlockASCII2 _infiniteLoopPause& call lib\loadE.bat CurS curl jq urlencode win_iconv setWT& call lib\loadJ.bat Md5Util& setlocal enabledelayedexpansion
+@echo off& call load.bat _strlen2 _getLF _getRandomNum _parseASCIIStr _showBlockASCII2 _infiniteLoopPause& call loadE.bat CurS curl jq urlencode win_iconv setWT& call loadJ.bat Md5Util& setlocal enabledelayedexpansion
 %CurS% /crv 0
 set appKey=2e92d7586dc7352a
 set secretKey=zXQ1Vo4ODUt8nHc3H006BSRo5RMNhBzK
